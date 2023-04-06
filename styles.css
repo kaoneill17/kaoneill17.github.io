@@ -1,0 +1,321 @@
+body, header, nav, main, footer, h1, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Header Styles */
+
+header {
+	background-color: aliceblue;
+}
+
+.responsive {
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: -.6em;
+	display: inline;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.koneill {
+    color: #304862;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+    font-weight: bolder;
+    text-align: left;
+    padding-left: .25em;
+    clear: none;
+    float: none;
+    font-size: xx-large;
+}
+
+/* Navigation Styles */
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+    background-color: aliceblue;
+}
+
+nav li {
+    display: inline-block;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    text-transform: uppercase;
+    font-size: x-large;
+    padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+    font-weight: bolder;
+}
+
+nav il a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+body {
+	background-color:aliceblue;
+	margin-bottom: 0;
+}
+
+hr {
+    background-color: #304862;
+    height: .35em;
+}
+
+/* Main Text Styles */
+
+.intro {
+    color: #304862;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    text-align: center;
+    padding: .5em;
+    font-size: x-large;
+}
+
+.greeting {
+    color: #984428;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    text-align: center;
+    padding: .5em;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.extrainfo {
+    color: #984428;
+    font-size: large;
+    font-weight: bold;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    text-align: center;
+	background-color: #BAD1DD;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	display: block;
+	width: 1280px;
+}
+
+.extrainfo p {
+	margin-left: 3em;
+	margin-right: 15em;
+}
+
+main h2 {
+    color: #304862;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    text-align: center;
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+
+main {
+	background-color:aliceblue;
+}
+
+.content {
+    color: #304862;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    font-style: normal;
+    font-size: large;
+    text-align: center;
+    text-indent: 118px;
+    top: 3em;
+    font-weight: normal;
+}
+
+.about {
+    color: #304862;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    font-style: normal;
+    font-size: large;
+    text-align: left;
+	display: inline-block;
+    font-weight: normal;
+    margin-right: 20em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+h4{
+    color: #984428;
+    font-size: x-large;
+    text-align: center;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-transform: uppercase;
+}
+
+.contact {
+    display: block;
+	color: #984428;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    text-align: center;
+	bottom: -50em;
+}
+
+.info {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    color: #304862;
+    text-align: center;
+    list-style-position: inside;
+    font-size: large;
+}
+
+/* Photo Styles */
+
+.photos {
+    display: block;
+    text-align: center;	
+}
+
+.homedepot img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+	height: auto;
+}
+
+homedepot {
+	justify-content: center;
+}
+
+.karyn {
+	display: inline;
+	position: relative;
+	clear: none;
+	float: left;
+	top: -20em;
+	left: 60em;
+}
+
+.nyc {
+	display: inline;
+	position: relative;
+	clear: none;
+	float: left;
+	top: 0em;
+	left: -17.5em;
+}
+
+.yankee {
+	display: inline;
+	position: relative;
+	clear: none;
+	float: none;
+	top: -.5em;
+	left: -16.5em;
+}
+
+.welcome {
+    display: block;
+    text-align: center;
+}
+
+.welcome img {
+    text-align: center;
+    width: 26%;
+    height: 38%;
+    box-shadow: 5px 5px 10px #DCDA8B;
+}
+
+.atlas {
+	display: inline;
+	position: relative;
+	clear: none;
+	float: left;
+	top: -27em;
+	left: 59.75em;
+}
+
+.balloon {
+	display: inline;
+	position: relative;
+	clear: none;
+	top: -12em;
+	left: -52.10em;
+}
+
+.airborne {
+	display: inline;
+	position: relative;
+	clear: none;
+	top: .5em;
+	left: 5em;
+}
+
+.basslake {
+	display: inline;
+	position: relative;
+	clear: none;
+	top: -29.25em;
+	left: 60em;
+}
+
+/* Form Contact Styles */
+
+form {
+    text-align: left;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    color: #304862;
+    font-size: large;
+    font-weight: bold;
+}
+
+legend {
+	padding: 5px;
+}
+
+textarea {
+	margin-top: 10px;
+	height: 100px;
+	width: 99%;
+}
+
+div#buttons {
+    text-align: center;
+    width: 100%;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+/* Logo Styles */
+
+.logo img {
+    display: block;
+    width: 60%;
+    height: 10%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.aboutlogo img {
+	display: block;
+	position: relative;
+    text-align: center;
+	margin-left: auto; 
+	margin-right: auto;
+	width: 60%;
+    height: 10%;
+}
+
+/* Footer Styles */
+
+footer {
+	background-color:aliceblue;
+	text-align: center;
+}
+footer p {
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+    font-size: small;
+    color: #304862;
+}
